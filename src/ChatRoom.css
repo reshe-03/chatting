@@ -1,0 +1,41 @@
+/* ChatRoom.css */
+.chat-room {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .messages {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 0.5rem;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  .input-box input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-box button {
+    margin-left: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-box button:hover {
+    background-color: #0056b3;
+  }
